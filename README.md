@@ -66,13 +66,6 @@ Here's how I handled nulls based on the column:
 - **Shipping Information**: Kept null return dates blank, since not all shipments get returned.
 
 
-## **Identifying Business Problems**
-Key business problems identified:
-1. High return rates for electronics product category.
-2. Significant delays in shipments and inconsistencies in delivery times.
-3.
-4.
-
 ## **Solving Business Problems**
 
  ## 1. Top Selling Products
