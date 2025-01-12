@@ -9,15 +9,15 @@
 - [Solving Business Problems](#solving-business-problems)
 
     [1. Top Selling Products](#1-top-selling-products)
-        - [2. Revenue by Category](#2-revenue-by-category)
-        - [3. Average Order Value (AOV)](#3-average-order-value-aov)
-        - [4. Monthly Sales Trend](#4-monthly-sales-trend)
-        - [5. Customers with No Purchases](#5-customers-with-no-purchases)
-        - [6. Least-Selling Categories by State](#6-least-selling-categories-by-state)
-        - [7. Customer Lifetime Value (CLTV)](#7-customer-lifetime-value-cltv)
-        - [8. Inventory Stock Alerts](#8-inventory-stock-alerts)
-        - [9. Shipping Delays](#9-shipping-delays)
-        - [10. Payment Success Rate](#10-payment-success-rate)
+    [2. Revenue by Category](#2-revenue-by-category)
+    [3. Average Order Value (AOV)](#3-average-order-value-aov)
+    [4. Monthly Sales Trend](#4-monthly-sales-trend)
+    [5. Customers with No Purchases](#5-customers-with-no-purchases)
+    [6. Least-Selling Categories by State](#6-least-selling-categories-by-state)
+    [7. Customer Lifetime Value (CLTV)](#7-customer-lifetime-value-cltv)
+    [8. Inventory Stock Alerts](#8-inventory-stock-alerts)
+    [9. Shipping Delays](#9-shipping-delays)
+    [10. Payment Success Rate](#10-payment-success-rate)
         
 
     
