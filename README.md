@@ -4,6 +4,7 @@
 ## 📚 Table of Contents
 - [Project Overview](#project-overview)
 - [Objective](#objective)
+- [Procedure](#procedure)
 - [Database Setup & Design](#database-setup--design)
 - [Task: Data Cleaning](#task-data-cleaning)
 - [Solving Business Problems](#solving-business-problems)
@@ -32,12 +33,17 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Inventory management
 - Payment and shipping analysis
 
+## Procedure
+-  Based on the source excel sheets i need to create relational database. I used [Quick database diagrams (QDD)](https://app.quickdatabasediagrams.com/ ) which saved me time and generated SQL code for me.
+- ![[QuickDBD- Diagram.png]]
+- Exported MySQL file -> Opened Navicat ->  MySQL Connection -> Created New Database amazon_db_ with  character set(utf8mb4) collation (utf8mb4_unicode_ci) -> Executed SQL file from QDD 
 
 ## **Database Setup & Design**
 
 
 ### **Schema Structure**
 
+![schema](/QuickDBD-Free Diagram.png)
 
 
 ## **Task: Data Cleaning**
