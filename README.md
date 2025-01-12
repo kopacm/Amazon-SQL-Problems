@@ -48,6 +48,9 @@ The primary objective of this project is to showcase SQL proficiency through com
 
 ![schema](/QuickDBD-Diagram.png)
 
+### **SQL code**
+SQL code for creating relational database 
+- [see code here](amazon_db.sql)
 
 ## **Data Cleaning**
 
