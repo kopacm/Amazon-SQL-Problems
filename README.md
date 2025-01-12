@@ -46,7 +46,7 @@ The primary objective of this project is to showcase SQL proficiency through com
 
 ### **Schema Structure**
 
-![schema](/QuickDBD-Free Diagram.png)
+![schema](/QuickDBD-Diagram.png)
 
 
 ## **Data Cleaning**
