@@ -451,6 +451,7 @@ ORDER BY  perc_delayed_orders DESC
 <tr><td>fedex</td><td>40.28</td></tr>
 <tr><td>dhl</td><td>38.72</td></tr>
 </table>
+
 ### **Query Breakdown and Notes**
 
 `SUM(CASE WHEN DATEDIFF(shipping_date, order_date) <= 3 AND payment_date = order_date THEN 1 ELSE 0 END) AS on_time_orders`:
@@ -498,6 +499,7 @@ JOIN payments p on o.order_id = p.order_id) as order_sta
 <tr><th>perc_completed_payments</th><th>failed_payments</th><th>pending_payments</th></tr>
 <tr><td>97.4</td><td>488</td><td>499</td></tr>
 </table>
+
 ### **Query Breakdown and Notes**
 
 `SUM(CASE WHEN payment_status LIKE '%ucce%' THEN 1 ELSE 0 END) as completed_payments`:
