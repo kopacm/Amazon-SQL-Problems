@@ -4,6 +4,14 @@
 
 I downloaded CSV files and analyzed a dataset containing over 20,000 sales records from an Amazon-like e-commerce platform. This project involved extensive querying of customer behavior, product performance, and sales trends using MySQL in software Navicat. Throughout this project, I addressed various SQL challenges, including revenue analysis, customer segmentation, and inventory management.
 
+## **Objective**
+
+The primary objective of this project is to showcase SQL proficiency through complex queries that address real-world e-commerce business challenges. The analysis covers various aspects of e-commerce operations, including:
+- Customer behavior
+- Sales trends
+- Inventory management
+- Payment and shipping analysis
+  
 ## **Database Setup & Design**
 
 ### **Schema Structure**
@@ -27,13 +35,7 @@ Here's how I handled nulls based on the column:
 - **Shipping Information**: Kept null return dates blank, since not all shipments get returned.
 
 
-## **Objective**
 
-The primary objective of this project is to showcase SQL proficiency through complex queries that address real-world e-commerce business challenges. The analysis covers various aspects of e-commerce operations, including:
-- Customer behavior
-- Sales trends
-- Inventory management
-- Payment and shipping analysis
 
 ## **Identifying Business Problems**
 Key business problems identified:
