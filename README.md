@@ -19,6 +19,7 @@
    - [9. Shipping Delays](#9-shipping-delays)
    - [10. Payment Success Rate](#10-payment-success-rate)
 - [Main Identified Business Issues](#main-identified-business-issues-)
+- [New functions I used](#main-identified-business-issues-)
         
 
     
