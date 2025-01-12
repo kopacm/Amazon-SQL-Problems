@@ -1,5 +1,25 @@
 # Amazon-SQL-Problems
 
+
+## 📚 Table of Contents
+- [Project Overview](#project-overview)
+- [Objective](#objective)
+- [Database Setup & Design](#database-setup--design)
+- [Task: Data Cleaning](#task-data-cleaning)
+- [Solving Business Problems](#solving-business-problems)
+        - [1. Top Selling Products](#1-top-selling-products)
+        - [2. Revenue by Category](#2-revenue-by-category)
+        - [3. Average Order Value (AOV)](#3-average-order-value-aov)
+        - [4. Monthly Sales Trend](#4-monthly-sales-trend)
+        - [5. Customers with No Purchases](#5-customers-with-no-purchases)
+        - [6. Least-Selling Categories by State](#6-least-selling-categories-by-state)
+        - [7. Customer Lifetime Value (CLTV)](#7-customer-lifetime-value-cltv)
+        - [8. Inventory Stock Alerts](#8-inventory-stock-alerts)
+        - [9. Shipping Delays](#9-shipping-delays)
+        - [10. Payment Success Rate](#10-payment-success-rate)
+        
+
+    
 ## **Project Overview**
 
 I downloaded CSV files and analyzed a dataset containing over 20,000 sales records from an Amazon-like e-commerce platform. This project involved extensive querying of customer behavior, product performance, and sales trends using MySQL in software Navicat. Throughout this project, I addressed various SQL challenges, including revenue analysis, customer segmentation, and inventory management.
@@ -11,8 +31,13 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Sales trends
 - Inventory management
 - Payment and shipping analysis
+<<<<<<< Updated upstream
   
+=======
+
+>>>>>>> Stashed changes
 ## **Database Setup & Design**
+
 
 ### **Schema Structure**
 
@@ -35,7 +60,10 @@ Here's how I handled nulls based on the column:
 - **Shipping Information**: Kept null return dates blank, since not all shipments get returned.
 
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 ## **Identifying Business Problems**
 Key business problems identified:
