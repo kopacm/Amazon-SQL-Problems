@@ -31,15 +31,8 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Sales trends
 - Inventory management
 - Payment and shipping analysis
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  
-=======
 
->>>>>>> Stashed changes
-=======
 
->>>>>>> Stashed changes
 ## **Database Setup & Design**
 
 
@@ -63,14 +56,6 @@ Here's how I handled nulls based on the column:
 - **Payment Status**: Marked orders with missing payment statuses as "Pending."
 - **Shipping Information**: Kept null return dates blank, since not all shipments get returned.
 
-
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
 ## **Identifying Business Problems**
 Key business problems identified:
