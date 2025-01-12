@@ -592,3 +592,20 @@ JOIN payments p on o.order_id = p.order_id) as order_sta
 2. **Returns Problem:** Certain product categories have a lot of returns.
 3. **Shipping Delays:** Shipments are taking too long and delivery times are unpredictable.
 4. **Customer Churn:** COmpany is spending a lot to get new customers, but they're not sticking around.
+
+## **New functions I used**
+
+- **`LAG(total_sales, 1) OVER (ORDER BY month_year)` (Key Feature):**
+    - This uses the `LAG` function to fetch the **previous month's total sales**.
+    - **`1`:** Specifies to look back one row (previous month).
+    - **`ORDER BY month_year`:** Ensures chronological order (from oldest to newest) to calculate the previous month's sale.
+- **`WHERE o.order_date >= CURDATE() - INTERVAL 1 YEAR`:**    
+    - Filters orders placed within the last 1 year (relative to today's date).
+    - `INTERVAL 1 YEAR` ensures proper handling of date subtraction.
+    -  if I don't use `Interval` but only "- 1" it would substract 1 day 
+- **`DATE_FORMAT(o.order_date, '%Y-%m') AS month_year`:**
+    - Converts the `order_date` into a `YYYY-MM` format (e.g., `2024-07`).
+    - Used as the grouping key to summarize sales by month.
+ - `RANK() OVER (PARTITION BY state ORDER BY sum(total_sale) ASC)` 
+	 - This is a window function that partitions the data by `state` (meaning it ranks categories independently within each state) and orders them by `sum(total_sale)` in ascending order (lowest sales first). It assigns a rank to each category within each state based on this order.
+-`` CONCAT(c.first_name, ' ', c.last_name) AS full_name``
