@@ -1,5 +1,48 @@
 # Amazon-SQL-Problems
 
+## **Project Overview**
+
+I downloaded CSV files and analyzed a dataset containing over 20,000 sales records from an Amazon-like e-commerce platform. This project involved extensive querying of customer behavior, product performance, and sales trends using MySQL in software Navicat. Throughout this project, I addressed various SQL challenges, including revenue analysis, customer segmentation, and inventory management.
+
+## **Database Setup & Design**
+
+### **Schema Structure**
+
+
+
+## **Task: Data Cleaning**
+
+I cleaned up the data by:
+
+- **Deleting Duplicates**: Found and deleted duplicate records in the customer and order tables.
+- **Dealing with Missing Data**: Fixed nulls (missing data) in important columns like customer address and payment status. I either filled them in with default values or used other suitable methods.
+
+
+## **Dealing with Missing Data (Nulls)**
+
+Here's how I handled nulls based on the column:
+
+- **Customer Address**: Filled in missing addresses with placeholder values.
+- **Payment Status**: Marked orders with missing payment statuses as "Pending."
+- **Shipping Information**: Kept null return dates blank, since not all shipments get returned.
+
+
+## **Objective**
+
+The primary objective of this project is to showcase SQL proficiency through complex queries that address real-world e-commerce business challenges. The analysis covers various aspects of e-commerce operations, including:
+- Customer behavior
+- Sales trends
+- Inventory management
+- Payment and shipping analysis
+
+## **Identifying Business Problems**
+Key business problems identified:
+1. High return rates for electronics product category.
+2. Significant delays in shipments and inconsistencies in delivery times.
+3.
+4.
+
+## **Solving Business Problems**
 
  ## 1. Top Selling Products
 Query the top 10 products by total sales value.
