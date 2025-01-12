@@ -32,7 +32,11 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Inventory management
 - Payment and shipping analysis
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
@@ -61,7 +65,10 @@ Here's how I handled nulls based on the column:
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 
