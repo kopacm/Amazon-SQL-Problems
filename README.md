@@ -36,10 +36,9 @@ The primary objective of this project is to showcase SQL proficiency through com
 ## Procedure
 1. Based on the source excel sheets i need to create relational database. 
 2. I used [Quick database diagrams (QDD)](https://app.quickdatabasediagrams.com/) which saved me time and generated SQL code for me.
-3. ![[QuickDBD- Diagram.png]]
-4. I cleaned up the data
-5. Exported MySQL file -> Opened Navicat ->  MySQL Connection -> Created New Database amazon_db_ with  character set(utf8mb4) collation (utf8mb4_unicode_ci) -> Executed SQL file from QDD 
-6. Analyzed the data
+3. I cleaned up the data
+4. Exported MySQL file -> Opened Navicat ->  MySQL Connection -> Created New Database amazon_db_ with  character set(utf8mb4) collation (utf8mb4_unicode_ci) -> Executed SQL file from QDD 
+5. Analyzed the data
 
 ## **Database Setup & Design**
 
@@ -587,3 +586,12 @@ JOIN payments p on o.order_id = p.order_id) as order_sta
 
 
 **In Summary:** This code analyzes order and payment data to calculate the overall payment success rate (`perc_completed_payments`) and provides the counts of `failed_payments` and `pending_payments`. This information can be used to monitor payment processing efficiency, identify potential issues, and track outstanding payments.
+
+---
+
+## **Main Identified Business Issues :**
+
+1. **Stock Issues:** Products are often out of stock because company is not restocking consistently.
+2. **Returns Problem:** Certain product categories have a lot of returns.
+3. **Shipping Delays:** Shipments are taking too long and delivery times are unpredictable.
+4. **Customer Churn:** COmpany is spending a lot to get new customers, but they're not sticking around.
