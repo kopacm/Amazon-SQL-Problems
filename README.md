@@ -8,7 +8,7 @@
 - [Task: Data Cleaning](#task-data-cleaning)
 - [Solving Business Problems](#solving-business-problems)
 
-        - [1. Top Selling Products](#1-top-selling-products)
+    [1. Top Selling Products](#1-top-selling-products)
         - [2. Revenue by Category](#2-revenue-by-category)
         - [3. Average Order Value (AOV)](#3-average-order-value-aov)
         - [4. Monthly Sales Trend](#4-monthly-sales-trend)
