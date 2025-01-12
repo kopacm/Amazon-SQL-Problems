@@ -18,6 +18,7 @@
    - [8. Inventory Stock Alerts](#8-inventory-stock-alerts)
    - [9. Shipping Delays](#9-shipping-delays)
    - [10. Payment Success Rate](#10-payment-success-rate)
+- [Main Identified Business Issues](#solving-business-problems)
         
 
     
