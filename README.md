@@ -6,7 +6,7 @@
 - [Objective](#objective)
 - [Procedure](#procedure)
 - [Database Setup & Design](#database-setup--design)
-- [Task: Data Cleaning](#task-data-cleaning)
+- [Data Cleaning](#data-cleaning)
 - [Solving Business Problems](#solving-business-problems)
    - [1. Top Selling Products](#1-top-selling-products)
    - [2. Revenue by Category](#2-revenue-by-category)
@@ -34,9 +34,12 @@ The primary objective of this project is to showcase SQL proficiency through com
 - Payment and shipping analysis
 
 ## Procedure
--  Based on the source excel sheets i need to create relational database. I used [Quick database diagrams (QDD)](https://app.quickdatabasediagrams.com/ ) which saved me time and generated SQL code for me.
-- ![[QuickDBD- Diagram.png]]
-- Exported MySQL file -> Opened Navicat ->  MySQL Connection -> Created New Database amazon_db_ with  character set(utf8mb4) collation (utf8mb4_unicode_ci) -> Executed SQL file from QDD 
+1. Based on the source excel sheets i need to create relational database. 
+2. I used [Quick database diagrams (QDD)](https://app.quickdatabasediagrams.com/) which saved me time and generated SQL code for me.
+3. ![[QuickDBD- Diagram.png]]
+4. I cleaned up the data
+5. Exported MySQL file -> Opened Navicat ->  MySQL Connection -> Created New Database amazon_db_ with  character set(utf8mb4) collation (utf8mb4_unicode_ci) -> Executed SQL file from QDD 
+6. Analyzed the data
 
 ## **Database Setup & Design**
 
@@ -46,7 +49,7 @@ The primary objective of this project is to showcase SQL proficiency through com
 ![schema](/QuickDBD-Free Diagram.png)
 
 
-## **Task: Data Cleaning**
+## **Data Cleaning**
 
 I cleaned up the data by:
 
