@@ -1,5 +1,5 @@
 # Amazon-SQL-Problems
-![amazon](/amazon_images.png | width=100)
+![amazon](/amazon_images.png)
 
 ## 📚 Table of Contents
 - [Project Overview](#project-overview)
